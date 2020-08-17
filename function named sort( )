@@ -1,3 +1,0 @@
-def alphabeti_sort(s):
-    return sorted(sorted(s), key=str.upper)
-print(alphabeti_sort('prathyusha'))
