@@ -1,4 +1,4 @@
-def removeDuplicate(str, n): 
+def Deduplicate(str, n): 
     index = 0
     for i in range(0, n):   
         for j in range(0, i + 1): 
@@ -10,4 +10,4 @@ def removeDuplicate(str, n):
               
     return "".join(str[:index]) 
 str= "prathyusha" 
-print(removeDuplicate(list(str), n)) 
+print(Deduplicate(list(str), n)) 
