@@ -1,0 +1,7 @@
+def deduplicate(s):
+    words=s.split("")
+    distwords=[]
+    for i in words:
+        if i not in distwords:
+            distwords.append(i)
+            return distwords
